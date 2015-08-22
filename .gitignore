@@ -1,3 +1,12 @@
+# Global
 .DS_Store
-bower_components
-node_modules
+.idea
+
+# For UI:
+node_modules/
+bower_components/
+.sass-cache/
+.idea/
+.tmp/
+dist/
+typings/
