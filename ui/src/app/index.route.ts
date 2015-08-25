@@ -6,9 +6,14 @@ module ui {
     constructor($routeProvider: ng.route.IRouteProvider) {
       $routeProvider
         .when('/', {
-          templateUrl: 'app/routes/main/main.html',
+          templateUrl: 'app/main/main.html',
           controller: 'MainController',
           controllerAs: 'main'
+        })
+        .when('/about', {
+          templateUrl: 'app/about/about.html',
+          controller: 'AboutCtrl',
+          controllerAs: 'about'
         })
         .otherwise({
           redirectTo: '/'

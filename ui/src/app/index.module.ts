@@ -5,7 +5,8 @@
 
 /// <reference path="index.config.ts" />
 /// <reference path="index.run.ts" />
-/// <reference path="routes/main/main.controller.ts" />
+/// <reference path="main/main.controller.ts" />
+/// <reference path="about/about.controller.ts" />
 /// <reference path="../app/components/navbar/navbar.directive.ts" />
 /// <reference path="../app/components/malarkey/malarkey.directive.ts" />
 /// <reference path="../app/components/webDevTec/webDevTec.service.ts" />
@@ -30,6 +31,7 @@ module ui {
     .service('githubContributor', GithubContributor)
     .service('webDevTec', WebDevTecService)
     .controller('MainController', MainController)
+    .controller('AboutCtrl', AboutCtrl)
     .directive('acmeNavbar', acmeNavbar)
     .directive('acmeMalarkey', acmeMalarkey);
 }

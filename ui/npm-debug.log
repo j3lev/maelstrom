@@ -1,0 +1,280 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'install', '-g', 'typescript' ]
+2 info using npm@2.11.3
+3 info using node@v0.12.7
+4 verbose install initial load of /usr/local/lib/package.json
+5 verbose readDependencies loading dependencies from /usr/local/lib/package.json
+6 silly cache add args [ 'typescript', null ]
+7 verbose cache add spec typescript
+8 silly cache add parsed spec { raw: 'typescript',
+8 silly cache add   scope: null,
+8 silly cache add   name: 'typescript',
+8 silly cache add   rawSpec: '',
+8 silly cache add   spec: '*',
+8 silly cache add   type: 'range' }
+9 silly addNamed typescript@*
+10 verbose addNamed "*" is a valid semver range for typescript
+11 silly addNameRange { name: 'typescript', range: '*', hasData: false }
+12 silly mapToRegistry name typescript
+13 silly mapToRegistry using default registry
+14 silly mapToRegistry registry http://registry.npmjs.org/
+15 silly mapToRegistry uri http://registry.npmjs.org/typescript
+16 verbose addNameRange registry:http://registry.npmjs.org/typescript not in flight; fetching
+17 verbose request uri http://registry.npmjs.org/typescript
+18 verbose request no auth needed
+19 info attempt registry request try #1 at 8:26:21 AM
+20 verbose request id 0cafa0831b97f52b
+21 verbose etag "8U569EV97UHW02DVBMSQ988X8"
+22 http request GET http://registry.npmjs.org/typescript
+23 http 200 http://registry.npmjs.org/typescript
+24 silly get cb [ 200,
+24 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+24 silly get     etag: '"50YM8NNMFG1BX0TUA46COYCEF"',
+24 silly get     'content-type': 'application/json',
+24 silly get     'cache-control': 'max-age=60',
+24 silly get     'content-length': '76410',
+24 silly get     'accept-ranges': 'bytes',
+24 silly get     date: 'Mon, 24 Aug 2015 12:26:22 GMT',
+24 silly get     via: '1.1 varnish',
+24 silly get     age: '0',
+24 silly get     connection: 'keep-alive',
+24 silly get     'x-served-by': 'cache-jfk1027-JFK',
+24 silly get     'x-cache': 'HIT',
+24 silly get     'x-cache-hits': '1',
+24 silly get     'x-timer': 'S1440419182.434861,VS0,VE18',
+24 silly get     vary: 'Accept' } ]
+25 verbose get saving typescript to /Users/kameronsween/.npm/registry.npmjs.org/typescript/.cache.json
+26 silly addNameRange number 2 { name: 'typescript', range: '*', hasData: true }
+27 silly addNameRange versions [ 'typescript',
+27 silly addNameRange   [ '0.8.0',
+27 silly addNameRange     '0.8.1',
+27 silly addNameRange     '0.8.1-1',
+27 silly addNameRange     '0.8.2',
+27 silly addNameRange     '0.8.3',
+27 silly addNameRange     '0.9.0',
+27 silly addNameRange     '0.9.0-1',
+27 silly addNameRange     '0.9.1',
+27 silly addNameRange     '0.9.1-1',
+27 silly addNameRange     '0.9.5',
+27 silly addNameRange     '0.9.7',
+27 silly addNameRange     '1.0.0',
+27 silly addNameRange     '1.0.1',
+27 silly addNameRange     '1.1.0-1',
+27 silly addNameRange     '1.3.0',
+27 silly addNameRange     '1.4.1',
+27 silly addNameRange     '1.5.0-alpha',
+27 silly addNameRange     '1.5.0-beta',
+27 silly addNameRange     '1.5.3',
+27 silly addNameRange     '1.6.0-dev.20150722.1',
+27 silly addNameRange     '1.6.0-dev.20150723',
+27 silly addNameRange     '1.6.0-dev.20150724',
+27 silly addNameRange     '1.6.0-dev.20150725',
+27 silly addNameRange     '1.6.0-dev.20150726',
+27 silly addNameRange     '1.6.0-dev.20150727',
+27 silly addNameRange     '1.6.0-dev.20150728',
+27 silly addNameRange     '1.6.0-dev.20150729',
+27 silly addNameRange     '1.6.0-dev.20150730',
+27 silly addNameRange     '1.6.0-dev.20150731',
+27 silly addNameRange     '1.6.0-dev.20150801',
+27 silly addNameRange     '1.6.0-dev.20150802',
+27 silly addNameRange     '1.6.0-dev.20150803',
+27 silly addNameRange     '1.6.0-dev.20150804',
+27 silly addNameRange     '1.6.0-dev.20150805',
+27 silly addNameRange     '1.6.0-dev.20150806',
+27 silly addNameRange     '1.6.0-dev.20150807',
+27 silly addNameRange     '1.6.0-dev.20150808',
+27 silly addNameRange     '1.6.0-dev.20150809',
+27 silly addNameRange     '1.6.0-dev.20150810',
+27 silly addNameRange     '1.6.0-dev.20150811',
+27 silly addNameRange     '1.6.0-dev.20150812',
+27 silly addNameRange     '1.6.0-dev.20150813',
+27 silly addNameRange     '1.6.0-dev.20150814',
+27 silly addNameRange     '1.6.0-dev.20150815',
+27 silly addNameRange     '1.6.0-dev.20150816',
+27 silly addNameRange     '1.6.0-dev.20150817',
+27 silly addNameRange     '1.6.0-dev.20150818',
+27 silly addNameRange     '1.6.0-dev.20150819',
+27 silly addNameRange     '1.6.0-dev.20150820',
+27 silly addNameRange     '1.6.0-dev.20150821',
+27 silly addNameRange     '1.6.0-dev.20150822',
+27 silly addNameRange     '1.6.0-dev.20150823',
+27 silly addNameRange     '1.6.0-dev.20150824' ] ]
+28 silly addNamed typescript@1.5.3
+29 verbose addNamed "1.5.3" is a plain semver version for typescript
+30 silly cache afterAdd typescript@1.5.3
+31 verbose afterAdd /Users/kameronsween/.npm/typescript/1.5.3/package/package.json not in flight; writing
+32 verbose afterAdd /Users/kameronsween/.npm/typescript/1.5.3/package/package.json written
+33 silly install resolved [ { name: 'typescript',
+33 silly install resolved     author: { name: 'Microsoft Corp.' },
+33 silly install resolved     homepage: 'http://typescriptlang.org/',
+33 silly install resolved     version: '1.5.3',
+33 silly install resolved     licenses: [ [Object] ],
+33 silly install resolved     description: 'TypeScript is a language for application scale JavaScript development',
+33 silly install resolved     keywords: [ 'TypeScript', 'Microsoft', 'compiler', 'language', 'javascript' ],
+33 silly install resolved     bugs: { url: 'https://github.com/Microsoft/TypeScript/issues' },
+33 silly install resolved     repository:
+33 silly install resolved      { type: 'git',
+33 silly install resolved        url: 'git+https://github.com/Microsoft/TypeScript.git' },
+33 silly install resolved     preferGlobal: true,
+33 silly install resolved     main: './bin/typescript.js',
+33 silly install resolved     bin: { tsc: './bin/tsc', tsserver: './bin/tsserver' },
+33 silly install resolved     engines: { node: '>=0.8.0' },
+33 silly install resolved     devDependencies:
+33 silly install resolved      { jake: 'latest',
+33 silly install resolved        mocha: 'latest',
+33 silly install resolved        chai: 'latest',
+33 silly install resolved        browserify: 'latest',
+33 silly install resolved        istanbul: 'latest' },
+33 silly install resolved     scripts: { test: 'jake runtests' },
+33 silly install resolved     gitHead: 'a24aa6f57d281bafd3535f0f4c3f492364a8b4d6',
+33 silly install resolved     _id: 'typescript@1.5.3',
+33 silly install resolved     _shasum: 'ce35e55f75b7a8d0ed571b503bd0a57157e523f7',
+33 silly install resolved     _from: 'typescript@*',
+33 silly install resolved     _npmVersion: '2.11.3',
+33 silly install resolved     _nodeVersion: '0.12.7',
+33 silly install resolved     _npmUser: { name: 'typescript', email: 'typescript@microsoft.com' },
+33 silly install resolved     dist:
+33 silly install resolved      { shasum: 'ce35e55f75b7a8d0ed571b503bd0a57157e523f7',
+33 silly install resolved        tarball: 'http://registry.npmjs.org/typescript/-/typescript-1.5.3.tgz' },
+33 silly install resolved     maintainers: [ [Object] ],
+33 silly install resolved     directories: {},
+33 silly install resolved     _resolved: 'http://registry.npmjs.org/typescript/-/typescript-1.5.3.tgz',
+33 silly install resolved     readme: 'ERROR: No README data found!' } ]
+34 info install typescript@1.5.3 into /usr/local/lib
+35 info installOne typescript@1.5.3
+36 verbose installOne of typescript to /usr/local/lib not in flight; installing
+37 verbose lock using /Users/kameronsween/.npm/_locks/typescript-5355178f5d1a073f.lock for /usr/local/lib/node_modules/typescript
+38 silly install write writing typescript 1.5.3 to /usr/local/lib/node_modules/typescript
+39 verbose unbuild lib/node_modules/typescript
+40 info preuninstall typescript@1.5.3
+41 info uninstall typescript@1.5.3
+42 verbose unbuild rmStuff typescript@1.5.3 from /usr/local/lib/node_modules
+43 silly gentlyRm /usr/local/bin/tsc is being gently removed
+44 silly gentlyRm verifying /usr/local is an npm working directory
+45 silly gentlyRm /usr/local/bin/tsserver is being gently removed
+46 silly gentlyRm verifying /usr/local is an npm working directory
+47 silly gentlyRm containing path /usr/local is under npm's control, in /usr/local
+48 silly gentlyRm deletion target /usr/local/bin/tsc is under /usr/local
+49 verbose gentlyRm vacuuming from /usr/local/bin/tsc up to /usr/local
+50 silly gentlyRm containing path /usr/local is under npm's control, in /usr/local
+51 silly gentlyRm deletion target /usr/local/bin/tsserver is under /usr/local
+52 verbose gentlyRm vacuuming from /usr/local/bin/tsserver up to /usr/local
+53 silly vacuum-fs removing /usr/local/bin/tsc
+54 silly vacuum-fs removing /usr/local/bin/tsserver
+55 silly vacuum-fs quitting because other entries in /usr/local/bin
+56 silly vacuum-fs quitting because other entries in /usr/local/bin
+57 info postuninstall typescript@1.5.3
+58 silly gentlyRm /usr/local/lib/node_modules/typescript is being purged from base /usr/local
+59 verbose gentlyRm don't care about contents; nuking /usr/local/lib/node_modules/typescript
+60 silly vacuum-fs purging /usr/local/lib/node_modules/typescript
+61 silly vacuum-fs quitting because other entries in /usr/local/lib/node_modules
+62 verbose tar unpack /Users/kameronsween/.npm/typescript/1.5.3/package.tgz
+63 verbose tar unpacking to /usr/local/lib/node_modules/typescript
+64 silly gentlyRm /usr/local/lib/node_modules/typescript is being purged
+65 verbose gentlyRm don't care about contents; nuking /usr/local/lib/node_modules/typescript
+66 silly gunzTarPerm modes [ '755', '644' ]
+67 silly gunzTarPerm extractEntry package.json
+68 silly gunzTarPerm modified mode [ 'package.json', 438, 420 ]
+69 silly gunzTarPerm extractEntry .npmignore
+70 silly gunzTarPerm modified mode [ '.npmignore', 438, 420 ]
+71 silly gunzTarPerm extractEntry README.md
+72 silly gunzTarPerm modified mode [ 'README.md', 438, 420 ]
+73 silly gunzTarPerm extractEntry Jakefile.js
+74 silly gunzTarPerm modified mode [ 'Jakefile.js', 438, 420 ]
+75 silly gunzTarPerm extractEntry CopyrightNotice.txt
+76 silly gunzTarPerm modified mode [ 'CopyrightNotice.txt', 438, 420 ]
+77 silly gunzTarPerm extractEntry .gitattributes
+78 silly gunzTarPerm modified mode [ '.gitattributes', 438, 420 ]
+79 silly gunzTarPerm extractEntry LICENSE.txt
+80 silly gunzTarPerm modified mode [ 'LICENSE.txt', 438, 420 ]
+81 silly gunzTarPerm extractEntry CONTRIBUTING.md
+82 silly gunzTarPerm modified mode [ 'CONTRIBUTING.md', 438, 420 ]
+83 silly gunzTarPerm extractEntry ThirdPartyNoticeText.txt
+84 silly gunzTarPerm modified mode [ 'ThirdPartyNoticeText.txt', 438, 420 ]
+85 silly gunzTarPerm extractEntry bin/typescriptServices.js
+86 silly gunzTarPerm modified mode [ 'bin/typescriptServices.js', 438, 420 ]
+87 silly gunzTarPerm extractEntry bin/tsc.js
+88 silly gunzTarPerm modified mode [ 'bin/tsc.js', 438, 420 ]
+89 silly gunzTarPerm extractEntry bin/tsserver.js
+90 silly gunzTarPerm modified mode [ 'bin/tsserver.js', 438, 420 ]
+91 silly gunzTarPerm extractEntry bin/typescript.js
+92 silly gunzTarPerm modified mode [ 'bin/typescript.js', 438, 420 ]
+93 silly gunzTarPerm extractEntry bin/lib.es6.d.ts
+94 silly gunzTarPerm modified mode [ 'bin/lib.es6.d.ts', 438, 420 ]
+95 silly gunzTarPerm extractEntry bin/lib.scriptHost.d.ts
+96 silly gunzTarPerm modified mode [ 'bin/lib.scriptHost.d.ts', 438, 420 ]
+97 silly gunzTarPerm extractEntry bin/lib.webworker.d.ts
+98 silly gunzTarPerm modified mode [ 'bin/lib.webworker.d.ts', 438, 420 ]
+99 silly gunzTarPerm extractEntry bin/lib.core.es6.d.ts
+100 silly gunzTarPerm modified mode [ 'bin/lib.core.es6.d.ts', 438, 420 ]
+101 silly gunzTarPerm extractEntry bin/lib.core.d.ts
+102 silly gunzTarPerm modified mode [ 'bin/lib.core.d.ts', 438, 420 ]
+103 silly gunzTarPerm extractEntry bin/tsserver
+104 silly gunzTarPerm modified mode [ 'bin/tsserver', 438, 420 ]
+105 silly gunzTarPerm extractEntry bin/lib.d.ts
+106 silly gunzTarPerm modified mode [ 'bin/lib.d.ts', 438, 420 ]
+107 silly gunzTarPerm extractEntry bin/typescript.d.ts
+108 silly gunzTarPerm modified mode [ 'bin/typescript.d.ts', 438, 420 ]
+109 silly gunzTarPerm extractEntry bin/lib.dom.d.ts
+110 silly gunzTarPerm modified mode [ 'bin/lib.dom.d.ts', 438, 420 ]
+111 silly gunzTarPerm extractEntry bin/typescriptServices.d.ts
+112 silly gunzTarPerm modified mode [ 'bin/typescriptServices.d.ts', 438, 420 ]
+113 silly gunzTarPerm extractEntry bin/tsc
+114 silly gunzTarPerm modified mode [ 'bin/tsc', 438, 420 ]
+115 silly gunzTarPerm extractEntry .editorconfig
+116 silly gunzTarPerm modified mode [ '.editorconfig', 438, 420 ]
+117 verbose write writing to /usr/local/lib/node_modules/typescript/package.json
+118 info preinstall typescript@1.5.3
+119 verbose readDependencies loading dependencies from /usr/local/lib/node_modules/typescript/package.json
+120 verbose readDependencies loading dependencies from /usr/local/lib/node_modules/typescript/package.json
+121 silly install resolved []
+122 verbose about to build /usr/local/lib/node_modules/typescript
+123 info build /usr/local/lib/node_modules/typescript
+124 info linkStuff typescript@1.5.3
+125 silly linkStuff typescript@1.5.3 has /usr/local/lib/node_modules as its parent node_modules
+126 silly linkStuff typescript@1.5.3 is part of a global install
+127 silly linkStuff typescript@1.5.3 is installed into a global node_modules
+128 silly linkStuff typescript@1.5.3 is installed into the top-level global node_modules
+129 verbose linkBins typescript@1.5.3
+130 verbose link bins [ { tsc: './bin/tsc', tsserver: './bin/tsserver' },
+130 verbose link bins   '/usr/local/bin',
+130 verbose link bins   true ]
+131 verbose linkMans typescript@1.5.3
+132 verbose rebuildBundles typescript@1.5.3
+133 silly gentlyRm /usr/local/bin/tsc is being gently removed
+134 silly gentlyRm verifying /usr/local is an npm working directory
+135 silly gentlyRm containing path /usr/local is under npm's control, in /usr/local
+136 silly gentlyRm deletion target /usr/local/bin/tsc is under /usr/local
+137 verbose gentlyRm vacuuming from /usr/local/bin/tsc up to /usr/local
+138 silly gentlyRm /usr/local/bin/tsserver is being gently removed
+139 silly gentlyRm verifying /usr/local is an npm working directory
+140 silly gentlyRm containing path /usr/local is under npm's control, in /usr/local
+141 silly gentlyRm deletion target /usr/local/bin/tsserver is under /usr/local
+142 verbose gentlyRm vacuuming from /usr/local/bin/tsserver up to /usr/local
+143 info install typescript@1.5.3
+144 info postinstall typescript@1.5.3
+145 verbose unlock done using /Users/kameronsween/.npm/_locks/typescript-5355178f5d1a073f.lock for /usr/local/lib/node_modules/typescript
+146 verbose validateInstall loading /usr/local/lib/package.json for validation
+147 warn unmet dependency /usr/local/lib/node_modules/sails requires grunt@'0.4.2' but will load
+147 warn unmet dependency /usr/local/lib/node_modules/grunt,
+147 warn unmet dependency which is version 0.4.5
+148 verbose stack Error: The package generator-mocha does not satisfy its siblings' peerDependencies requirements!
+148 verbose stack     at /usr/local/lib/node_modules/npm/lib/install.js:125:32
+148 verbose stack     at /usr/local/lib/node_modules/npm/lib/install.js:267:7
+148 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/read-installed/read-installed.js:138:5
+148 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/read-installed/read-installed.js:251:14
+148 verbose stack     at cb (/usr/local/lib/node_modules/npm/node_modules/slide/lib/async-map.js:47:24)
+148 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/read-installed/read-installed.js:251:14
+148 verbose stack     at cb (/usr/local/lib/node_modules/npm/node_modules/slide/lib/async-map.js:47:24)
+148 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/read-installed/read-installed.js:251:14
+148 verbose stack     at cb (/usr/local/lib/node_modules/npm/node_modules/slide/lib/async-map.js:47:24)
+148 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/read-installed/read-installed.js:251:14
+149 verbose cwd /Users/kameronsween/Documents/git/maelstrom/ui
+150 error Darwin 14.5.0
+151 error argv "node" "/usr/local/bin/npm" "install" "-g" "typescript"
+152 error node v0.12.7
+153 error npm  v2.11.3
+154 error code EPEERINVALID
+155 error peerinvalid The package generator-mocha does not satisfy its siblings' peerDependencies requirements!
+155 error peerinvalid Peer generator-sails@0.1.0 wants generator-mocha@~0.1.1
+156 verbose exit [ 1, true ]
